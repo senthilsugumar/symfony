@@ -20,6 +20,7 @@ require_once __DIR__.'/../app/AppKernel.php';
 
 $kernel = new AppKernel('dev', false);
 //$kernel = new AppKernel('prod', false);
+//$kernel = new AppKernel('test', false);
 $kernel->loadClassCache();
 //$kernel = new AppCache($kernel);
 
